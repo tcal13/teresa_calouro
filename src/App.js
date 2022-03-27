@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <div className = 'content'>
+      <div className = 'media'>
+          <iframe src="https://giphy.com/embed/ypqHf6pQ5kQEg" width="439" height="480" frameBorder="0" class="giphy-embed"></iframe>
+          <p>Welcome to my React + Router website! </p>
+        </div>
+      </div>
+    </main>
   );
 }
-
-export default App;
